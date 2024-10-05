@@ -64,7 +64,8 @@ class Slider {
     this.images = [
     'assets/bg1.jpg',
     'assets/bg2.jpg',
-    'assets/bg3.jpg'];
+    'assets/bg3.jpg',
+    'assets/bg4.jpg'];
 
 
     this.data = {
