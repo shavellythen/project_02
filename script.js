@@ -159,7 +159,7 @@ class Slider {
       this.textures.push(texture);
     });
 
-    this.disp = loader.load('https://s3-us-west-2.amazonaws.com/s.cdpn.io/58281/rock-_disp.png', this.render);
+    this.disp = loader.load('assets/rock-_disp.png', this.render);
     this.disp.magFilter = this.disp.minFilter = THREE.LinearFilter;
     this.disp.wrapS = this.disp.wrapT = THREE.RepeatWrapping;
   }
